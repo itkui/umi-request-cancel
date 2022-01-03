@@ -1,8 +1,8 @@
 {
   "name": "umi-request-cancel",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "umi-request cancel by key",
-  "main": "./lib/umi-request-cancel.js",
+  "main": "./lib/index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:itkui/umi-request-cancel.git"
