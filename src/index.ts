@@ -4,7 +4,6 @@ import { signalMerge, errorMerge, cancelKeyCheck } from './utils/utils'
 request.use(
   async ({ req: { options }, req }, next) => {
     const cancelKeySymbol = cancelKeyCheck(options, req.url)
-    console.log(cancelKeySymbol)
     if (!cancelKeySymbol) {
       return await next();
     }
