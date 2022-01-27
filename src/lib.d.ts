@@ -1,1 +1,1 @@
-declare module "umi-request-cancel" {}
+declare module "umi-request-cancel" { }
