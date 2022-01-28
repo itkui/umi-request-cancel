@@ -4,7 +4,7 @@ umi-request 取消请求第三方库, 你可以很方便的中断 umi-request �
 
 [中文文档](https://github.com/itkui/umi-request-cancel/blob/master/README.md)|[英文文档](https://github.com/itkui/umi-request-cancel/blob/master/en.README.md)
 
-[![NPM version](https://img.shields.io/badge/npm-v1.1.4-blue?style=flat)](https://www.npmjs.com/package/umi-request-cancel)
+[![NPM version](https://img.shields.io/badge/npm-v1.1.6-blue?style=flat)](https://www.npmjs.com/package/umi-request-cancel)
 
 ## 安装
 

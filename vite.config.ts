@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
 import { resolve } from 'path'
-import typescript from '@rollup/plugin-typescript';
 
 export default defineConfig(({ mode }) => {
   return {
@@ -13,9 +12,8 @@ export default defineConfig(({ mode }) => {
       target: ["esnext", "es2015"],
       outDir: "lib",
       rollupOptions: {
-        plugins: [typescript({
-          declarationDir: "lib"
-        })]
+        // 确保外部化处理那些你不想打包进库的依赖
+        external: ['easy-umi-request-cancel', 'umi-request'],
       },
       lib: {
         entry: resolve(__dirname, 'src'),

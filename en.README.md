@@ -4,7 +4,7 @@ umi-request cancel lib, you can easy cancel your request.
 
 [Chinese documents](https://github.com/itkui/umi-request-cancel/blob/master/README.md)|[English documents](https://github.com/itkui/umi-request-cancel/blob/master/en.README.md)
 
-[![NPM version](https://img.shields.io/badge/npm-v1.1.4-blue?style=flat)](https://www.npmjs.com/package/umi-request-cancel)
+[![NPM version](https://img.shields.io/badge/npm-v1.1.6-blue?style=flat)](https://www.npmjs.com/package/umi-request-cancel)
 
 ## Installation
 

@@ -1,5 +1,6 @@
-import req from 'umi-request-cancel';
-// import req from '../src/index';
+import request from 'umi-request-cancel'
+
+const req = request
 
 let dom = `
   <ul>
